@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build":"npm install && rm -rf dist && tsc && ls dist",
-    "dev": "node dist/index.js"
+    "dev": "node dist/src/index.js"
   },
   "keywords": [],
   "author": "",
