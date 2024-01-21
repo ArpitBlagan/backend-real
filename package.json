@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"npm install && tsc && ls run",
-    "dev": "node index.js"
+    "build":"npm install && tsc && ls dist",
+    "dev": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
