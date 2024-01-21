@@ -15,7 +15,7 @@ app.use(express.json());
 mongoose.connect(process.env.URL).
 then(()=>{console.log("connected successfully to DB");})
 app.use(cors({
-    origin:['*','http://localhost:5173','http://localhost:3000'],
+    origin:['*','http://localhost:5173','http://localhost:3000','https://frontend-real-pi.vercel.app'],
     credentials:true
 }));
 app.use("/",routerr);
