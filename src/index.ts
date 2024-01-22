@@ -15,7 +15,7 @@ app.use(express.json());
 mongoose.connect(process.env.URL).
 then(()=>{console.log("connected successfully to DB");})
 app.use(cors({
-    origin:['*','http://localhost:5173','http://localhost:3000','https://beamish-beignet-1e3534.netlify.app','https://frontend-real-pi.vercel.app'],
+    origin:['*','http://localhost:5173','http://localhost:3000','https://beamish-beignet-1e3534.netlify.app','https://frontend-real-navy.vercel.app'],
     credentials:true
 }));
 app.use("/",routerr);
